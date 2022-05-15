@@ -61,7 +61,7 @@ Top 5|64|68|71
 
 
 ---
-## Result
+## Result : EfficientNet B0
 > 최종 모델 성능
 - 정제 후 
 
