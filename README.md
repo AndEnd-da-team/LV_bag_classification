@@ -9,7 +9,7 @@ project with [ENDAND](https://endand.com/)
 
 ## LV_bag_classification  
 루이비통 브랜드의 가방(약 850 종) 분류 프로젝트  
-  
+- 자세한 내용 : report.pdf
 > _by. Experiment_
 
 
@@ -23,14 +23,14 @@ project with [ENDAND](https://endand.com/)
   - 사용 모델 : EfficientNetB0,B1,B2,B3,B4 / ViT
   - 전처리 및 증강법 변화
 - 다양한 접근
-  - objectdetection : YOLOv3 _for datacleansing_
+  - objectdetection : YOLOv3 _for DataCleansing_
   - Classification, Metric Learning  
   
   
   
     
-## DataSet
 ---
+## DataSet
 데이터 수집과 모델 학습을 동시에 전행하여 분류 가능 클래스가 점차 증가하였다. 수집된 데이터를 정제 후에 증강시켜 사용하였음.  
 - 데이터 정제
   - 해시값을 이용한 중복 이미지 제거(sha256)
@@ -60,8 +60,8 @@ Top 5|64|68|71
 
 
 
-## Result
 ---
+## Result
 > 최종 모델 성능
 - 정제 후 
 
